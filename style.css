@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/earlyaccess/lateef.css);
+*{
+    margin: 0;
+    padding: 0;
+} 
+body{
+    background-color: #459397;
+    text-align: center;
+    margin: auto;
+}
+header{
+    background-image: url(SJD\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 900px;
+}
+
+h1{
+    font-family: "Architects Daughter";
+    font-size: 519%;
+}
+h2{
+    font-family: 'Lateef', serif;
+}
+.sect1{
+    background: rgba(0, 121, 100, 0.51);
+    width:20%;
+    box-shadow: 1px 2px rgba(0, 0, 0, 0.1);
+}
+.SEC{
+    width: 53%;
+    background: rgba(252, 255, 255, 0.81);  
+}
+
+.section1{
+    display: flex;
+    
+}
+.section2{
+    display: flex;
+    align-items: space-around;
+}
+.section3{
+    display: flex;
+}
+.section4{
+    display: flex;
+}
+.section5{
+    display: flex;
+}
+img{
+    border-radius: 16px;
+    height: 300px;
+ 
+}
+
