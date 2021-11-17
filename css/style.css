@@ -9,7 +9,7 @@ body{
     margin: auto;
 }
 header{
-    background-image: url(SJD\ \(1\).png);
+    background-image: url("./img/SJD\ \(1\).png");
     background-repeat: no-repeat;
     background-size: 100%;
     height: 900px;
