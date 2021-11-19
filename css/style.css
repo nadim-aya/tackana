@@ -13,6 +13,8 @@ header{
     background-repeat: no-repeat;
     background-size: 100%;
     height: 900px;
+    padding-top: 169px;
+    color: #fff;
 }
 
 h1{
@@ -24,12 +26,28 @@ h2{
 }
 .sect1{
     background: rgba(0, 121, 100, 0.51);
-    width:20%;
+    width:19em;
     box-shadow: 1px 2px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    height: 339px;
+    font-size: 28px;
+    margin-top: 315px;
+    color: #fff;
+    padding: 30px;
+}
+
+.sect1 h3{
+    font-size: 50px;
+    font-family: "Architects Daughter";
 }
 .SEC{
-    width: 53%;
-    background: rgba(252, 255, 255, 0.81);  
+    width: 40%;
+    background: rgba(252, 255, 255, 0.81); 
+    margin: auto;
+    height: 329px;
+    font-size: 32px;
+    padding: 16px;
+    border-radius: 5%;
 }
 
 .section1{
@@ -49,9 +67,43 @@ h2{
 .section5{
     display: flex;
 }
+.section6{
+  margin: auto;
+  height: 350px;
+}
+.section7{
+    margin: auto;
+  }
 img{
     border-radius: 16px;
     height: 300px;
- 
+}
+h4{
+    font-family: Architects Daughter;
+    font-size: 72px;
+    color: #fff;
+    margin-left: -36%;
+}
+.SEC h3{
+    font-family: Rubik;
+}
+
+img::before {
+    content: "";
+  }
+
+button{
+    background: rgba(255, 255, 255, 0.66);
+    border-radius: 24px;
+}
+a{
+    color: #fff;
+    font-size: 30px;
+    display: block;
+    margin: auto;
+    margin-top: -100px;
+}
+.SEC p{
+    font-family: 'Rouge Script';
 }
 
