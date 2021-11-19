@@ -185,4 +185,18 @@ header .logo
   {
     font-size: 2em;
   }
-  }
+}
+#menu{
+display: flex;
+flex-direction: row;
+text-decoration: none;
+list-style: none;
+padding-right: 34em;
+
+
+}
+nav{
+  display: flex;
+  padding: 5%;
+padding: 34px;
+}
