@@ -23,6 +23,9 @@ header .logo
   color: #fff;
   text-transform: uppercase;
   cursor: pointer;
+  font-family: Architects Daughter;
+  font-size: 40px;
+  padding-top: 20px;
 }
 
 .showcase
@@ -170,6 +173,42 @@ header .logo
   color: #03a9f4; 
 }
 
+#menu{
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  list-style: none;
+  
+  float: right;
+  
+  
+  }
+  
+  nav{
+    display: flex;
+  
+  }
+  ul li a{
+  padding: 10px;
+  text-decoration: none;
+  font-size: larger;
+  color: #fff;
+  font-family: poppins;
+  font-weight: bold;
+  
+  
+  }
+  ul li  :hover{
+    color: aqua;
+   
+  
+  }
+  .login{
+    border: 2PX SOLID  aqua ;
+    border-width: 3p;
+
+  }
+
 @media (max-width: 991px)
 {
   .showcase,
@@ -186,17 +225,5 @@ header .logo
     font-size: 2em;
   }
 }
-#menu{
-display: flex;
-flex-direction: row;
-text-decoration: none;
-list-style: none;
-padding-right: 34em;
 
 
-}
-nav{
-  display: flex;
-  padding: 5%;
-padding: 34px;
-}

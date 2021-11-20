@@ -19,21 +19,26 @@ header{
 
 h1{
     font-family: "Architects Daughter";
-    font-size: 519%;
+    font-size: 110px;
 }
 h2{
     font-family: 'Lateef', serif;
 }
 .sect1{
-    background: rgba(0, 121, 100, 0.51);
-    width:19em;
-    box-shadow: 1px 2px rgba(0, 0, 0, 0.1);
-    margin: auto;
-    height: 339px;
-    font-size: 28px;
-    margin-top: 315px;
-    color: #fff;
-    padding: 30px;
+    position: absolute;
+width: 650px;
+height: 472px;
+left: 429px;
+top: 416px;
+
+background: rgba(0, 121, 100, 0.51);
+}
+.military{
+    display: flex;
+font-family: monospace;
+text-align: justify;
+font-size: 25px;
+justify-content: center;
 }
 
 .sect1 h3{
@@ -88,9 +93,7 @@ h4{
     font-family: Rubik;
 }
 
-img::before {
-    content: "";
-  }
+
 
 button{
     background: rgba(255, 255, 255, 0.66);
