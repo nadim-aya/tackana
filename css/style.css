@@ -25,20 +25,19 @@ h2{
     font-family: 'Lateef', serif;
 }
 .sect1{
-    position: absolute;
-width: 650px;
-height: 472px;
-left: 429px;
-top: 416px;
-
-background: rgba(0, 121, 100, 0.51);
+  position: absolute;
+  width: 650px;
+  height: 472px;
+  left: 429px;
+  top: 416px;
+  background: rgba(0, 121, 100, 0.51);
 }
 .military{
-    display: flex;
-font-family: monospace;
-text-align: justify;
-font-size: 25px;
-justify-content: center;
+   display: flex;
+   font-family: monospace;
+   text-align: justify;
+   font-size: 25px;
+   justify-content: center;
 }
 
 .sect1 h3{
@@ -46,7 +45,7 @@ justify-content: center;
     font-family: "Architects Daughter";
 }
 .SEC{
-    width: 40%;
+    width: 60%;
     background: rgba(252, 255, 255, 0.81); 
     margin: auto;
     height: 329px;
@@ -57,11 +56,9 @@ justify-content: center;
 
 .section1{
     display: flex;
-    
 }
 .section2{
     display: flex;
-    align-items: space-around;
 }
 .section3{
     display: flex;
@@ -78,7 +75,7 @@ justify-content: center;
 }
 .section7{
     margin: auto;
-  }
+}
 img{
     border-radius: 16px;
     height: 300px;
@@ -92,9 +89,6 @@ h4{
 .SEC h3{
     font-family: Rubik;
 }
-
-
-
 button{
     background: rgba(255, 255, 255, 0.66);
     border-radius: 24px;
