@@ -45,10 +45,10 @@ h2{
     font-family: "Architects Daughter";
 }
 .SEC{
-    width: 60%;
+    width: 63%;
     background: rgba(252, 255, 255, 0.81); 
     margin: auto;
-    height: 329px;
+    height: 340px;
     font-size: 32px;
     padding: 16px;
     border-radius: 5%;
@@ -102,5 +102,18 @@ a{
 }
 .SEC p{
     font-family: 'Rouge Script';
+}
+footer{
+    background-color: black;
+    color: #fff;
+}
+h5{
+    font-family: Architects Daughter;
+    font-size: 32px;
+}
+@media all and (max-width:900px){
+.SEC{
+    flex-wrap: wrap;
+}
 }
 
