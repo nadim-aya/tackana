@@ -13,8 +13,59 @@ h1{ font-family: "Architects Daughter";
 font-size: 519%;
 }
 h2{
-font-family: 'Lateef', serif;
+  font-family: 'Lateef', serif;
 }
 label{
     color: #fff;
+}
+footer{
+    background-color: #FFFFFF;
+    color: black;
+    margin-top: 5em;
+    text-align: center;
+     font-family:"Architects Daughter" ;
+    }
+.footertitle{
+        font-family:"Architects Daughter";
+        font-size:42px;
+        padding-top: 3rem;
+}
+footer{
+    height: 200px;
+    }
+    li{
+        display: inline;
+    list-style-type:none;
+    padding-left: 25rem;
+    padding:1%;
+    font-size: 25px;
+ }
+.copyright{
+    background-color: dimgrey;
+    height: 20px;
+    padding-top: 10px;
+}
+.TITRE h3{
+    word-spacing : 5px;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+header{
+    display: flex;
+    justify-content: center; 
+}
+#country{
+    width: 172px;
+}
+#birthday{
+    width: 170px;
+}
+select{
+    border-radius: 10px;
+}
+input{
+    border-radius: 10px;
+    padding: 5px;
 }
