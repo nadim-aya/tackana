@@ -9,8 +9,9 @@ header{
     color: #fff;
 }
  
-h1{ font-family: "Architects Daughter";
-font-size: 519%;
+h1{ 
+    font-family: "Architects Daughter";
+    font-size: 550%;
 }
 h2{
   font-family: 'Lateef', serif;
@@ -58,24 +59,26 @@ header{
 }
 #country{
     width: 600px;
-    padding: 7px;
+    padding: 9px;
 }
 
 select{
-    border-radius: 10px;
+    border-radius: 15px;
 }
 input{
-    border-radius: 10px;
-    padding: 7px;
-    width: 600px;
+    border-radius: 15px;
+    padding: 9px;
+    width: 580px;
 }
 h2{
-    word-spacing: 10px;
+    letter-spacing: 27px;
+    font-size: 20px;
+    text-align: center;
 }
 h3{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 64px;
+    font-size: 60px;
 }
 label{
     font-size: 24px;
