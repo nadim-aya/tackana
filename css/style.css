@@ -28,17 +28,17 @@ h2{
 }
 .sect1{
   margin: auto;
-  width: 562px;
-  height: 310px;
+  width: 41%;
+  height: 267px;
   left: 389px;
   background: rgba(0, 121, 100, 0.51);
-  padding: 20px;
-  margin-top: 6%;
+  padding: 40px;
+  margin-top: 13%;
 }
 .military{
    font-family: monospace;
    text-align: justify;
-   font-size: 25px;
+   font-size: 181%;
 }
 
 .sect1 h3{
@@ -123,10 +123,13 @@ i{
     text-align: justify;
     padding-left: 10%;
 }
-@media  (max-width:900px){
+main{
+    margin-top: 10%;
+}
+@media  (max-width:1126px){
 
 h1{
-    font-size: 74px;
+    font-size: 54px;
 }
 img {
     height: 196px;
@@ -135,6 +138,7 @@ img {
 .SEC{
     height: 413px;
     width: 73%;
+    font-size: 29px;
 }
 header{
     height: 658px;
@@ -154,5 +158,35 @@ a{
 i{
     font-size: 30px;
 }
+.sect1 h3 {
+    font-size: 30px;
+}
+.military {
+    font-size: 109%;
+}
+h4{
+    font-size: 52px;
+}
+}
+@media  (max-width:648px){
+    .SEC {
+        font-size: 23px;
+    }
+
+    header{
+        background-size: 118%;
+        height: 581px;
+    }
+    .sect1{
+        width: 51%;
+        height: 199px;
+        margin-top: -9%;
+    }
+    main {
+        margin-top: -14%;
+    }
+    h2{
+        font-size: 99%;
+    }
 }
 
