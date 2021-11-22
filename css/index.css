@@ -103,13 +103,13 @@ header .logo
 {
   display: inline-block;
   font-size: 1em;
-  background: #fff;
+  background: black;
   padding: 10px 30px;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 500;
   margin-top: 10px;
-  color: #111;
+  color: #fff;
   letter-spacing: 2px;
   transition: 0.2s;
   font-family:Arial, Helvetica, sans-serif;
@@ -117,6 +117,7 @@ header .logo
 .text a:hover
 {
   letter-spacing: 6px;
+  transition: cubic-bezier(0.19, 1, 0.22, 1);
 }
 .social
 {
@@ -189,7 +190,7 @@ header .logo
   
   }
   ul li a{
-  padding: 10px;
+  padding: 15px;
   text-decoration: none;
   font-size: larger;
   color: #fff;
@@ -204,11 +205,18 @@ header .logo
   
   }
   .login{
-    border: 2PX SOLID  aqua ;
-    border-width: 3p;
+    border: 2PX SOLID  rgb(26, 183, 255) ;
+    border-width: 2px;
+  margin-left: 20px;
+  border-radius: 30px;
 
   }
-
+.signin{
+  margin-left: 30px;
+background-color:rgb(26, 183, 255) ;
+border:2px solid rgb(26, 183, 255);
+border-radius:30px;
+}
 @media (max-width: 991px)
 {
   .showcase,
