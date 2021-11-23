@@ -22,6 +22,7 @@ h1{
 }
 h2{
     font-family: 'Lateef', serif;
+    letter-spacing: 15px;
 }
 .TITRE{
     padding: 71px;
@@ -196,5 +197,36 @@ h4{
     main {
         margin-top: -9%;
     }
+}
+@media  (max-width:648px){
+img{
+    height: 122px;
+}
+.SEC {
+    font-size: 18px;
+    height: 307px;
+}
+.section6 {
+    height: 142px;
+}
+h4 {
+    font-size: 39px;
+}
+.cop {
+    font-size: 59%;
+}
+h2{
+    letter-spacing: 0px;
+}
+h1 {
+    font-size: 31px;
+}
+.sect1 {
+    width: 59%;
+}
+header {
+    background-size: 212%;
+    height: 479px;
+}
 }
 
