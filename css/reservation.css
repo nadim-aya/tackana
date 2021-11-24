@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+:root {
+	--primary-color: #0f0f0f;
+    --primary-font:Montserrat;}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+  
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5;
+    background-color: white;
+}
+
+a {
+	text-decoration: none;
+	color: var(--primary-color); 
+	border: 2px solid white;
+	font-size: 22;
+
+}
+.maintitle{
+font-size: 28px;
+}
+.booking{
+	font-family: finger paint;
+}
+
+h1 {
+
+	font-weight: 300;
+	font-size: 60px;
+	line-height: 1.2;
+	margin-bottom: 15px;
+    font-family: architects daughter;
+
+}
+.btn{
+font-family: Rubik;
+background-color: #ffff;
+font-size: 22px;
+margin-left: 50em;
+height: 50;
+width:400;
+
+}
+
+
+.items{
+margin-top: -2em;
+margin-left: 70em;
+}
+ul{
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+
+}
+.content{
+	padding-top: 2em;
+}
+ul li{
+	padding: 5%;
+}
+.showcase{
+	font-size: 45px;
+	margin-top: 3em;
+	margin-left: 1em;
+}
+  header{
+	height: 500px;
+	background-color: #000000;
+	color: #ffff
+	;
+  }
+  h3{
+	  background-color: turquoise;
+	  border: turquoise solid 2px;
+	  border-radius: 5%;
+	 
+  }
+
+
+
+
+
+#about {
+
+	text-align: justify;
+    
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+
+
+.social a {
+	margin: 0 5px;
+}
+.HUTS{
+margin-left: 100PX;
+margin-top: 3rem;}
+
+
+
+
+
+.price{
+font-family: finger paint;
+padding-left: 2em;
+font-weight: bold;
+font-size: 55px;
+
+}
+input {
+    background-color: transparent;
+    height: 50px;
+    width: 15em;
+    
+
+    border-radius: 12px;
+}
+button{
+
+color: black;
+width: 100px;
+height:50px;
+background:#ffff;
+border-radius: 83px;
+margin-left: 67px;
+font-family: rubik;
+font-weight: bold;
+}
+#available{
+justify-content: center;
+padding-left: 100px;
+font: 4em cardo;
+margin-top: 10px;
+
+}
+
+.single{
+    margin-top: 20px;
+    margin-left: 100px;
+    padding: 5%;
+}
+.HUTS{
+display: flex;
+font-size: 3em;
+padding-right: 12px;
+}
+.double{
+    margin-top: 20px;
+    margin-left: 100px;
+    padding: 5%;
+   
+    
+}
+.form2{
+margin-left: 90px;
+}
+.takanaexp{
+padding-left: 30vh;
+font-size: 33px;
+
+}
+.experience{
+    text-align: center;
+    font-family:Rubik;
+    font-weight: bold;
+
+}
+
+footer{
+    background-color: #000000;
+    color: #ffff;
+    margin-top: 5em;
+    text-align: center;
+    font-family:"Architects Daughter" ;
+    }
+    .footertitle{
+        font-family:"Architects Daughter"
+        ;font-size:42px;
+        padding-top: 3rem;
+    
+    }
+    footer{
+    height: 200px;
+    }
+	li footer{
+        display: inline;
+    list-style-type:none;
+    padding-left: 25rem;
+    padding:1%;
+    font-size: 25px;
+    color: black;
+    }
+    
+    
+    
+    .copyright{
+    background-color: dimgrey;
+    height: 20px;
+    padding-top: 10px;
+    }
+    
+
+@media screen and (max-width=375px) {
+   
+}
+    
+
