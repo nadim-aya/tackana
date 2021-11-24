@@ -1,0 +1,121 @@
+*{
+margin: 0%;
+padding: 0%;
+}
+body{
+background-color: black;
+}
+header{
+
+background-image: url(1.png);
+width: 100%;
+background-repeat: no-repeat;
+background-size: 100%;
+
+
+height: 500px;
+}
+.maintitle{
+display: block;
+padding-top: 70px;
+text-align: center;
+font-size: 72px;
+color: blanchedalmond;
+font-family: "Architects Daughter";
+
+}
+.secondtitle{
+display: block;
+text-align: center;
+font-family: cardo;
+word-spacing: 0.5em;
+color: blanchedalmond;
+letter-spacing: 10;
+}
+#headerelmnts{
+    padding-top: 3em;
+}
+#eventtitle{
+color: blanchedalmond;
+font-family: rubik;
+font-weight: bold;
+padding-left:110px;
+font-size: 45px;
+}
+main{
+    padding: 5%;
+}
+.eventrow1{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width:200px;
+    margin-left: 12em;
+    transform:scale3d(0.5px)
+}
+.eventrow2{
+    display:flex;
+    flex-direction: row;
+    height: 300px;
+    width: 200px;
+    margin-left:12em;
+    margin-top: 2em;
+}
+.img{
+width: 495px;
+}
+.experience{
+    text-align: justify;
+    font-family:Rubik;
+    font-weight: bold;
+    color: white;
+    margin-top: 5em;
+    padding-left: 2em;
+
+}
+.takanaexp{
+    padding-left: 25vh;
+    font-size: 33px;
+    color:#FFFFFF;
+    margin-top: 0.5em;
+    
+    }
+footer{
+    background-color: #FFFFFF;
+    color: black;
+    margin-top: 5em;
+    text-align: center;
+    font-family:"Architects Daughter" ;
+    }
+    .footertitle{
+        font-family:"Architects Daughter"
+        ;font-size:42px;
+        padding-top: 3rem;
+    
+    }
+    footer{
+    height: 400px;
+    }
+    
+    
+    
+    li{
+        display: inline;
+    list-style-type:none;
+    padding-left: 25em;
+    padding:1%;
+    font-size: 25px;
+    color: black;
+    } 
+   .icons{
+    text-align: center;
+    background-color: aqua;
+   }
+    
+    
+    
+    .copyright{
+    background-color: dimgrey;
+    height: 20px;
+    padding-top: 10px;
+    }
