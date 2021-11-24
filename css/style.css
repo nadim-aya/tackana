@@ -198,7 +198,7 @@ h4{
         margin-top: -9%;
     }
 }
-@media  (max-width:648px){
+@media  (max-width:532px){
 img{
     height: 122px;
 }
@@ -227,6 +227,10 @@ h1 {
 header {
     background-size: 212%;
     height: 479px;
+}
+a {
+    margin-top: -55px;
+    font-size: 22px;
 }
 }
 
