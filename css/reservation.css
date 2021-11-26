@@ -1,219 +1,199 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
-
-:root {
-	--primary-color: #0f0f0f;
-    --primary-font:Montserrat;}
-
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-  
-}
-
-body {
-	font-family: 'Open Sans', sans-serif;
-	line-height: 1.5;
-    background-color: white;
-}
-
-a {
-	text-decoration: none;
-	color: var(--primary-color); 
-	border: 2px solid white;
-	font-size: 22;
+*{
+    margin: 0%;
+    padding: 0%;
 
 }
-.maintitle{
-font-size: 28px;
+header{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    color: white;
+    font-family: Architects Daughter;
 }
-.booking{
-	font-family: finger paint;
+#takana{
+    margin-left: 1em;
+  padding-top: 2em;
+   
 }
+span{
+font-size: 12px;
+letter-spacing: 5px;
+font-family: cardo;
+line-height: 2%;
 
-h1 {
-
-	font-weight: 300;
-	font-size: 60px;
-	line-height: 1.2;
-	margin-bottom: 15px;
-    font-family: architects daughter;
-
-}
-.btn{
-font-family: Rubik;
-background-color: #ffff;
-font-size: 22px;
-margin-left: 50em;
-height: 50;
-width:400;
-
-}
-
-
-.items{
-margin-top: -2em;
-margin-left: 70em;
 }
 ul{
-	display: flex;
-	flex-direction: row;
-	list-style-type: none;
-
-}
-.content{
-	padding-top: 2em;
-}
-ul li{
-	padding: 5%;
-}
-.showcase{
-	font-size: 45px;
-	margin-top: 3em;
-	margin-left: 1em;
-}
-  header{
-	height: 500px;
-	background-color: #000000;
-	color: #ffff
-	;
-  }
-  h3{
-	  background-color: turquoise;
-	  border: turquoise solid 2px;
-	  border-radius: 5%;
-	 
-  }
-
-
-
-
-
-#about {
-
-	text-align: justify;
-    
     display: flex;
-    flex-direction: row;
-    margin-top: 60px;
-}
+justify-content: flex-end;
+list-style-type: none;
+margin-top: -3.5em;
+font-size: 22px;
 
 
 
-.social a {
-	margin: 0 5px;
-}
-.HUTS{
-margin-left: 100PX;
-margin-top: 3rem;}
-
-
-
-
-
-.price{
-font-family: finger paint;
-padding-left: 2em;
-font-weight: bold;
-font-size: 55px;
 
 }
-input {
-    background-color: transparent;
-    height: 50px;
-    width: 15em;
-    
-
-    border-radius: 12px;
-}
-button{
-
-color: black;
-width: 100px;
-height:50px;
-background:#ffff;
-border-radius: 83px;
-margin-left: 67px;
-font-family: rubik;
-font-weight: bold;
-}
-#available{
-justify-content: center;
-padding-left: 100px;
-font: 4em cardo;
-margin-top: 10px;
+#maintitle{
+margin-top: -9em;
 
 }
-
-.single{
-    margin-top: 20px;
-    margin-left: 100px;
-    padding: 5%;
-}
-.HUTS{
+li{
 display: flex;
-font-size: 3em;
-padding-right: 12px;
+padding: 2%;
+}
+.booking{
+text-align:justify;
+padding-top: 3.5em;
+padding-left: 4em;
+font-size:50px;
+
+font-family: finger paint;
+;
+
+}
+.reserv{
+text-align: justify;
+margin-top: -5px ;
+font-family: Cardo;
+padding-left: 4em;
+font-size:50px;
+
+}
+.book1{
+
+display: flex;
+justify-content: flex-end;
+width: 150px;
+height: 50px;
+background: #FFF5F5;
+border-radius: 83px;
+margin-left: 70em;
+
+}
+.book1 a{
+    color: black;
+    font-family: rubik;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    padding-right: 0.25em;
+    font-weight: bold;
+    padding-top: 0.25em;
+
+
+}
+.available{
+text-align: center;
+margin-top: 2em;
+font-family: Montserrat;
+font-weight:900px;
+font-size: 72px;
+}
+#about{
+display: flex;
+flex-direction: row;
+justify-content: center;
+padding: 5%;
+
+}
+.single{
+padding: 5%;
+font-size: 44px;
+font-family: Montserrat;
 }
 .double{
-    margin-top: 20px;
-    margin-left: 100px;
-    padding: 5%;
-   
-    
+padding: 5%;
+font-size: 44px;
+font-family: Montserrat;
 }
-.form2{
-margin-left: 90px;
+.price{
+font-family: finger paint;
+font-size:82px ;
+text-align: center;
 }
-.takanaexp{
-padding-left: 30vh;
-font-size: 33px;
-
+input{
+background: #FFFCFC;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 73px;
+width: 472px;
+height: 69px;
 }
-.experience{
+.book2{
+width: 275px;
+height: 108px;
+background-color: black;
+color: white;
+border: solid;
+border-radius: 83px;
+font-size: 45px;
+font-family: Rubik;
+font-weight: bold;
+}
+p{
     text-align: center;
-    font-family:Rubik;
-    font-weight: bold;
-
+   text-align: justify;
+    font-family: cardo;
+    font-size: 40px;
+    margin-left: 2em;
 }
-
 footer{
-    background-color: #000000;
-    color: #ffff;
-    margin-top: 5em;
-    text-align: center;
-    font-family:"Architects Daughter" ;
-    }
-    .footertitle{
-        font-family:"Architects Daughter"
-        ;font-size:42px;
-        padding-top: 3rem;
-    
-    }
-    footer{
     height: 400px;
-
-    }
-	li footer{
-    display: inline;
-    list-style-type:none;
-    padding-left: 25rem;
-    padding:1%;
-    font-size: 25px;
-    color: black;
-    }
-    
-    
-    
-    .copyright{
-    background-color: dimgrey;
-  
-    margin-top: -3em;
-    }
-    
-
-@media screen and (max-width=375px) {
-   
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-top: 4em;
 }
+.footertitle{
+text-align: center;
+font-size: 50px;
+padding-top: 4em;
+font-family: architects daughter;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 2em;
     
+}
+footer li{
+    font-size: 36px;
+    padding: 10%;
+}
+@media screen and (max-width:900px){
+    #about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+}
+.book1{
 
+    
+   display: none;
+    }
+    header{
+        width: 800px;
+    }
+    .booking{
+        text-align:justify;
+        padding-top: 10em;
+        padding-left: 4em;
+        font-size:20px;
+        
+        font-family: finger paint;
+        ;
+        
+        }
+        .reserv{
+            text-align: justify;
+            margin-top: -5px ;
+            font-family: Cardo;
+            padding-left: 2em;
+            font-size:20px;
+        } 
+        footer{
+        width: 800px;
+        }           
+}
